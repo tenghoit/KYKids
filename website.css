@@ -108,7 +108,7 @@ img[alt="Instagram"]{
 main{
     display: flex;
     flex-flow: column wrap;
-    
+    margin: 0rem 5%;
 }
 
 #inspiration{
@@ -138,4 +138,79 @@ h3{
 
 p{
     font-family: "PT Sans";
+}
+
+
+
+
+#whyChildcare img{
+    display: none;
+}
+
+
+.imgwrapper{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.long {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: ma;
+    text-align: left;
+
+}
+
+.long div:nth-child(2){
+    display: flex;
+    /* background-color: gray; */
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1;
+    text-align: left;
+}
+
+.imgdiv {
+    flex: 0 0 auto;
+}
+
+.imgdiv img{
+    height: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* support */
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+
+.short{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: min-content;
+    text-align: center;
 }
