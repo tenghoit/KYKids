@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=MedievalSharp&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Indie+Flower&family=MedievalSharp&family=Rock+Salt&display=swap');
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-runescape {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.caudex-regular {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    background-color: white;
+    color: #002147;
+    font-family: "Indie Flower";
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('imgs/parchment-clipart-lg.png');
+    background-repeat:space;
+    background-position: center center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('imgs/1837-125614294734Yp-removebg-preview.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto;
+    height: 522px;
+    width: 100%;
+}
+
+h2 {
+    font-family: "MedievalSharp";
+    font-size: 28px;
+}
+
+.logo{
+    display: none;
+}
+
+nav{
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    background-image: linear-gradient(to right,#3B3C36, #002147);
+    font-family: "cinzel-runescape";
+}
+
+nav a {
+    text-decoration: none;
+    color: orange;
+    
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    margin: 0rem 0.5rem;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 5px 5px black; 
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    margin: 1rem;
+}
+
+aside img{
+    border-radius: 10rem;
+    margin: 1rem;
+}
+
+img[alt="Facebook"]{
+    background-color: #1877F2;
+}
+img[alt="Instagram"]{
+    background-color: #FE005c;
+}
+
+main{
+    text-align: center;
+    margin: 0rem 2vw;
+    max-width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p{
+    font-size: larger;
+}
+
+
+/* home */
+
+
+#inspiration{
+    font-size: x-large;
+    font-style: italic;
+}
+
+#mission {
+    background-image: url(imgs/Familie-2b.png);
+    background-repeat: no-repeat;
+    background-size: 150px 100px;
+    background-position: top left;
+}
+
+#funding{
+    background-image: url('imgs/pngegg.png');
+    background-repeat:space;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+/* childcare */
+
+
+#whyChildcare img{
+    display: none;
+}
+
+.imgwrapper{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    text-align: left;
+    /* background-color: gray; */
+    flex: 1 1 100%;
+}
+
+.imgdiv{
+    width: fit-content;
+    height: fit-content;
+    flex: 1 1 auto;
+}
+
+#childcare .imgdiv{
+    width: min-content;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+#childcare .imgdiv{
+    width: 100%;
+    height: auto;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: auto;
+}
+
+.long {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 0rem 2rem;
+    width: min-content;
+}
+
+#whyChildcare{
+    flex: 1 1 100%;
+}
+
+#choseChildcare{
+    flex: 1 1 40%;
+}
+
+#childcareBenefits{
+    flex: 1 1 40%;
+}
+
+#childcare main img{
+    width: 300px;
+}
+
+
+/* support */
+
+#support main img{
+    width: 300px;
+}
+
+.short{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 0rem 2rem;
+    width: min-content;
+}
+
+
+/* preschool */
+
+#preschool main img{
+    width: 300px;
+}
+
+#headStartPre img{
+    width: 400px;
+    height: auto;
+}
+
+.links{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.links ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+
+.links li, .phone{
+    background-image: linear-gradient(to right,#3B3C36, #002147);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1px;
+    color: orange;
+    
+}
+
+.links li a, .phone a{
+    color: orange;
+    /* text-decoration: none; */
+    font-family: "cinzel-runescape";
+}
+
+.imggroup div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* concerns */
+
+#concerns main img{
+    width: 300px;
+}
+
+
+/* activites */
+
+#activities main img{
+    width: 300px;
+}
+
+#activities main iframe{
+    width: 300px;
+    height: auto;
+}

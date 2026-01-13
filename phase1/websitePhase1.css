@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rock+Salt&display=swap');
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('imgs/HeartofKYWebLogo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 29rem) {
+  header > nav{
+    display: none;
+  }
+}
+
+nav{
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: black;
+}
+
+header > h1 {
+    margin-top: -40px;
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 5px 5px black; 
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    margin: 0rem 0.5rem;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo{
+    display: none;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside img{
+    border-radius: 10rem;
+    margin: 1rem;
+}
+
+img[alt="Facebook"]{
+    background-color: #1877F2;
+    /* margin-top: 450px; */
+
+}
+img[alt="Instagram"]{
+    background-color: #FE005c;
+    /* margin-top: 450px; */
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0rem 5%;
+}
+
+#inspiration{
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: steelblue;
+}
+
+h2, main a{
+    color: steelblue;
+    text-shadow: 1px 0.5px lightblue; 
+}
+
+#mission p:nth-child(3){
+    text-align: center;
+    color: steelblue;
+}
+
+#funding p:nth-child(5), #funding p:nth-child(8), #funding p:nth-child(9){
+    font-weight: bold;
+}
+
+h3{
+    font-weight: normal;
+}
+
+p{
+    font-family: "PT Sans";
+}
+
+
+
+
+#whyChildcare img{
+    display: none;
+}
+
+
+.imgwrapper{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    /* background-color: gray; */
+}
+
+.long {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    text-align: left;
+
+}
+
+.long div:nth-child(2){
+    display: flex;
+    /* background-color: gray; */
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 1;
+    text-align: left;
+}
+
+.imgdiv {
+    flex: 0 0 auto;
+}
+
+.imgdiv img{
+    height: 200px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* support */
+
+section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+
+.short{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: min-content;
+    text-align: center;
+}
+
+
+
+
+/* activites */
+
+
+#programs .long{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    text-align: left;
+    /* background-color: peachpuff; */
+    /* margin: 0rem 2rem; */
+    width: min-content;
+}
+
+#programs img{
+    width: 100%;
+}
+
+.video {
+    width: 100%;
+}
+
+.video iframe{
+    width: 364px;
+    height: auto;
+}
+
+/* main{background-color: beige;} */
+
+
+
+/* preschool */
+
+
+#HeadstartSection .imgdiv{
+    height: 100%;
+}
